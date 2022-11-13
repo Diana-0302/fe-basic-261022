@@ -9,3 +9,11 @@ a {
 img {
   max-width: 100%;
 }
+* {
+  margin: 5px;
+  padding: 1px;
+  background-color: rgb(217, 222, 228);
+}
+a {
+  color: blue;
+}

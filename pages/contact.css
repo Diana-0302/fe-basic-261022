@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+/*--------------------------------------------------------------------------------------------*/
+* {
+  margin: 5px;
+  padding: 2px;
+  background-color: azure;
+}
+a {
+  color: maroon;
+}
+#someId {
+  color: darkblue;
+}
+p {
+  color: darkgreen;
+}
+.class1,
+.class3 {
+  color: #e51070;
+}
+.class1.class2 {
+  color: darkcyan;
+}
+[data-target] {
+  color: cornflowerblue;
+}
+p span {
+  color: crimson;
+}
+p em,
+p b {
+  margin: 0;
+  padding: 0;
+  color: gold;
+}
+p > em > b {
+  color: coral;
+  margin: 0;
+  padding: 0;
+}
+p.class2 {
+  color: indigo;
+}
+p.class2 em {
+  color: brown;
+}
