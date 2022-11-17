@@ -25,3 +25,76 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+  background: #e5e5e5;
+}
+
+.section1 .space {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: #c4c4c4;
+}
+h3 {
+  text-align: center;
+}
+.wrapper {
+  display: inline-block;
+  width: 1000px;
+  background: #e6e6e6;
+  margin-bottom: 50px;
+}
+
+.square {
+  display: block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 3.3;
+  font-size: 60px;
+  color: #ffffff;
+  background: #fc8f8f;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+.second {
+  width: 460px;
+}
+.squareSmall {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 3.3;
+  font-size: 30px;
+  color: #ffffff;
+  background: #fc8f8f;
+}
+.third {
+  width: 430px;
+  margin-bottom: 0;
+}
+.marginLeft {
+  margin-left: 15px;
+}
+.marginRight {
+  margin-right: 15px;
+}
