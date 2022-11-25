@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6</title>
+    <link rel="stylesheet" href="../fonts/font.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="center">
+                    <h2>Пошук авто на</h2>
+                    <h1>AUTOUA.UA</h1>
+                </div>
+                <form action="https://fom.in.ua/echo" method="post">
+                    <fieldset>
+                        <legend class="bold">Загальне</legend>
+                        <p> Тип кузова
+                            <select name="type">
+                                <option value="none" disabled selected>Оберіть тип</option>
+                                <option value="universal">Універсал</option>
+                                <option value="sedan">Седан</option>
+                                <option value="minivan">Мінівен</option>
+                                <option value="pickup">Пікап</option>
+                            </select>
+                        </p>
+
+                        <p> Марка авто
+
+                            <select name="car brand">
+                                <option value="none" disabled selected>Оберіть марку</option>
+                                <option value="Audi">Audi</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Chevrolet">Chevrolet</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Lexus">Lexus</option>
+                                <option value="Kia">Kia</option>
+                            </select>
+                        </p>
+                        <p> Країна виробник
+
+                            <select name="producing country">
+                                <option value="none" disabled selected>Оберіть країну</option>
+                                <option value="Germany">Німеччина</option>
+                                <option value="Japan">Японія</option>
+                                <option value="France"> Франція</option>
+                                <option value="USA">США</option>
+                                <option value="Korea">Корея</option>
+                            </select>
+                        </p>
+                        <p> Рік випуску
+                            <label>
+                                <input type="number" name="year from" placeholder="Рік, від" min="2000"
+                                    max="2019"></label>
+                            <label> <input type="number" name="year to" placeholder="Рік, до" min="2000" max="2019">
+                            </label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="bold">Вартість</legend>
+                        <p>Ціна
+                            <label>
+                                <input type="text" name="price from" placeholder="Ціна, від"></label>
+                            <label><input type="text" name="price to" placeholder="Ціна, до"></label>
+
+                            <select name="currency">
+                                <option value="USD">$</option>
+                                <option value="EUR">€</option>
+                                <option value="UAH">₴</option>
+                            </select>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="bold">Стан</legend>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="car condition" value="undamaged">
+                                Повністю непошкоджене
+                            </label>
+                            <label>
+                                <input type="checkbox" name="car condition" value="damaged">
+                                Не відремонтовані пошкодження
+                            </label>
+                            <label>
+                                <input type="checkbox" name="car condition" value="uncleared">
+                                Нерозмитнені
+                            </label>
+                            <label>
+                                <input type="checkbox" name="car condition" value="in credit">
+                                В кредиті
+                            </label>
+                            <label>
+                                <input type="checkbox" name="car condition" value="confiscated">
+                                Конфіскат
+                            </label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="bold">Технічні характеристики</legend>
+                        <p><b> Тип палива </b> <br>
+                            <label>
+                                <input type="radio" name="fuel" value="petrol">
+                                Бензин
+                            </label><br>
+                            <label>
+                                <input type="radio" name="fuel" value="diesel">
+                                Дизель
+                            </label><br>
+                            <label>
+                                <input type="radio" name="fuel" value="gas">
+                                Газ
+                            </label><br>
+                            <label>
+                                <input type="radio" name="fuel" value="gas-petrol">
+                                Газ/ бензин
+                            </label>
+                        </p> <br>
+                        <p><b> Тип коробки передач </b> <br>
+                            <label>
+                                <input type="radio" name="transmission" value="manual">
+                                Ручна/ Механіка
+                            </label><br>
+                            <label>
+                                <input type="radio" name="transmission" value="automatic">
+                                Автомат
+                            </label>
+                        </p> <br>
+                        <p><b> Колір </b> <br>
+                            <label>
+                                <input type="checkbox" name="color" value="white">
+                                Білий
+                            </label>
+                            <label>
+                                <input type="checkbox" name="color" value="black">
+                                Чорний
+                            </label>
+                            <label>
+                                <input type="checkbox" name="color" value="yellow">
+                                Жовтий
+                            </label>
+                            <label>
+                                <input type="checkbox" name="color" value="red">
+                                Червоний
+                            </label>
+                            <label>
+                                <input type="checkbox" name="color" value="blue">
+                                Синій
+                            </label>
+                            <label>
+                                <input type="checkbox" name="color" value="brown">
+                                Коричневий
+                            </label>
+                            <label>
+                                <input type="checkbox" name="color" value="gray">
+                                Сірий
+                            </label>
+                            <label>
+                                <input type="checkbox" name="color" value="metallic">
+                                Металік
+                            </label>
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend class="bold">Комфорт</legend>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="comfort" value="hatch">
+                                Люк
+                            </label>
+                            <label>
+                                <input type="checkbox" name="comfort" value="heated seats">
+                                Підігрів сидінь
+                            </label>
+                            <label>
+                                <input type="checkbox" name="comfort" value="charging">
+                                Бездротова зарядка для смартфону
+                            </label>
+                            <label>
+                                <input type="checkbox" name="comfort" value="window tinted">
+                                Тоновані вікна
+                            </label>
+                            <label>
+                                <input type="checkbox" name="comfort" value="steering wheel heating">
+                                Обігрів керма
+                            </label>
+                            <label>
+                                <input type="checkbox" name="comfort" value="on-board computer">
+                                Бортовий комп'ютер
+                            </label>
+                            <label>
+                                <input type="checkbox" name="comfort" value="refrigerator">
+                                Холодильник
+                            </label>
+                        </p>
+                    </fieldset>
+                    <button type="submit">Пошук</button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
