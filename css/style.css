@@ -24,4 +24,63 @@ html {
   padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+}
+/*------------------------------------------------------------*/
+.nav {
+  background: #333;
+  border-bottom: 5px solid #088bef;
+}
+
+.nav-link {
+  display: inline-block;
+  color: #fff;
+}
+.nav-link:hover > a {
+  background: #088bef;
+}
+.sub-menu {
+  position: absolute;
+  min-width: 200px;
+  background: #088bef;
+  visibility: hidden;
+  opacity: 0;
+  padding-top: 5px;
+}
+
+nav li:hover > .sub-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.sub-menu li {
+  position: relative;
+  border: 1px solid #0564ac;
+  border-radius: 3px;
+}
+.sub-menu .sub-menu {
+  position: absolute;
+  left: 100%;
+  top: -1px;
+  padding-top: 0;
+}
+.sub-menu li:hover > a {
+  background: #79bff4;
+}
+.add-plus::after {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -10px;
 }
