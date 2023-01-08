@@ -163,11 +163,6 @@ input {
 .burger .burger-line:last-child {
   top: 22px;
 }
-.check:checked ~ .nav {
-  z-index: 1;
-  background-color: var(--main-color);
-  opacity: 0.99;
-}
 .check:checked ~ nav .nav-list .nav-item:active {
   background: var(--separator-color-gray);
 }
