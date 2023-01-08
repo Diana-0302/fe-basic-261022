@@ -59,8 +59,9 @@
     justify-content: flex-start;
     gap: 6px;
   }
-  .nav {
+  .wrap-nav .nav {
     font-size: 16px;
+    background-color: var(--color-white);
   }
   .page-title {
     font-size: 36px;
