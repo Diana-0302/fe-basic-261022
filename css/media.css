@@ -30,11 +30,6 @@
     background: var(--bg-color-gray);
     border-radius: 12px;
   }
-  .check:checked ~ .nav {
-    z-index: 1;
-    background-color: var(--main-color);
-    opacity: 0.99;
-  }
 }
 
 @media (min-width: 641px) {
